@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BM0001" xml:space="preserve">
+    <value>Please fill out this field.  (BM0001)</value>
+  </data>
+  <data name="BM0002" xml:space="preserve">
+    <value>Please enter only numbers.  (BM0002)</value>
+  </data>
+  <data name="BM0003" xml:space="preserve">
+    <value>Please enter only integer values. (BM0003)</value>
+  </data>
+  <data name="BM0004" xml:space="preserve">
+    <value>Please enter only numbers.  (BM0004)</value>
+  </data>
+  <data name="BM0006" xml:space="preserve">
+    <value>Value must be greater than or equal to {param}.  (BM0006)</value>
+  </data>
+  <data name="BM0008" xml:space="preserve">
+    <value>Value must be between {param_0} and {param_1}. (BM0008)</value>
+  </data>
+  <data name="BM0009" xml:space="preserve">
+    <value>Please lengthen this text to {param} characters or more. (BM0009)</value>
+  </data>
+  <data name="BM0011" xml:space="preserve">
+    <value>Please input {param} characters or less.  (BM0011)</value>
+  </data>
+  <data name="BM0014" xml:space="preserve">
+    <value>Please enter {param_0} digits before the decimal point {param_1} digits after the decimal point. (BM0014)</value>
+  </data>
+  <data name="BM0015" xml:space="preserve">
+    <value>Invalid date. (BM0015)</value>
+  </data>
+  <data name="BM0024" xml:space="preserve">
+    <value>Please enter alphanumeric characters.  (BM0024)</value>
+  </data>
+  <data name="ColumnName" xml:space="preserve">
+    <value>列</value>
+  </data>
+  <data name="DeniedContent" xml:space="preserve">
+    <value>Checklist result was denied: </value>
+  </data>
+  <data name="Encoding" xml:space="preserve">
+    <value>Shift-JIS</value>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>エラーメッセージ</value>
+  </data>
+  <data name="ErrorValue" xml:space="preserve">
+    <value>エラー値</value>
+  </data>
+  <data name="FormatDate" xml:space="preserve">
+    <value>MM/dd/yyyy</value>
+  </data>
+  <data name="InvalidColumnSizeTextFieldFile" xml:space="preserve">
+    <value>列数が不正です。</value>
+  </data>
+  <data name="RecordNumber" xml:space="preserve">
+    <value>行</value>
+  </data>
+  <data name="FailedPasswordAttempt" xml:space="preserve">
+    <value>Password had been tried 5 times. Please contact administrator to unlock your account.</value>
+  </data>
+  <data name="InvalidUserIdOrPassword" xml:space="preserve">
+    <value>Incorrect user id or password.</value>
+  </data>
+  <data name="DbUpdateConcurrencyError" xml:space="preserve">
+    <value>Another user has changed the data already. Please search again to get the latest data.</value>
+  </data>
+  <data name="UnknownError" xml:space="preserve">
+    <value>An unknown error has occurred.</value>
+  </data>
+  <data name="DbSaveErrorMessage" xml:space="preserve">
+    <value>Failed to save the data.</value>
+  </data>
+  <data name="NotNullAllow" xml:space="preserve">
+    <value>NULL is not permitted.</value>
+  </data>
+  <data name="NoUploadDataError" xml:space="preserve">
+    <value>Did not have the data to be uploaded.</value>
+  </data>
+  <data name="OutOfLengthTextField" xml:space="preserve">
+    <value>The value exceeds the specified number of digits. Set up to half-width {0} digits and full-width {1} digits.</value>
+  </data>
+  <data name="OutOfRangeTextField" xml:space="preserve">
+    <value>Value is out of range. Please set a number between {0} and {1}.</value>
+  </data>
+  <data name="PrimaryKeyViolation" xml:space="preserve">
+    <value>Primary key constraint violation.</value>
+  </data>
+  <data name="ServiceError" xml:space="preserve">
+    <value>An error occurred in the service.</value>
+  </data>
+  <data name="ERPApiErrorMessage" xml:space="preserve">
+    <value>Error encountered. Please contact with FMS adminstrator.</value>
+  </data>
+  <data name="BM0051" xml:space="preserve">
+    <value>Please enter {0} format. (BM0051)</value>
+  </data>
+  <data name="administrator" xml:space="preserve">
+    <value>Administrator</value>
+  </data>
+</root>

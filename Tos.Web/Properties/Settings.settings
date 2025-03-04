@@ -1,0 +1,75 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TOS.Web.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SMTPServerName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">smtp.gmail.com</Value>
+    </Setting>
+    <Setting Name="mailFromName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Project Manager System</Value>
+    </Setting>
+    <Setting Name="SMTPServerUser" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">sys_admin@to-solutions.com.vn</Value>
+    </Setting>
+    <Setting Name="SMTPServerPassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">P@ssw0rd</Value>
+    </Setting>
+    <Setting Name="SMTPServerPort" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">587</Value>
+    </Setting>
+    <Setting Name="ExcelTemplateFolder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">~/ExcelTemplates</Value>
+    </Setting>
+    <Setting Name="ExcelExtension" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">.xlsx</Value>
+    </Setting>
+    <Setting Name="UploadTempFolder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">~/Temp</Value>
+    </Setting>
+    <Setting Name="UploadFileFolder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">~/Upload/File/</Value>
+    </Setting>
+    <Setting Name="UploadFileCaptureFolder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">~/assets/upload/file/</Value>
+    </Setting>
+    <Setting Name="ImageFolder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">~/Upload</Value>
+    </Setting>
+    <Setting Name="MinuteFutureReminder" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="JwtKey" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">XoaaIAr001TqgazsfXUHoDGDmzx9dkiDCY5Fqjo6fSc=</Value>
+    </Setting>
+    <Setting Name="JwtIssuer" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost/</Value>
+    </Setting>
+    <Setting Name="NumMonthChangePassword" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="API_Redmine_User" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">tosvn.viewer.project</Value>
+    </Setting>
+    <Setting Name="API_Redmine_Pass" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">P@ssw0rd</Value>
+    </Setting>
+    <Setting Name="API_Redmine_Url" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://tosvnredmine.southeastasia.cloudapp.azure.com/redmine</Value>
+    </Setting>
+    <Setting Name="API_Attendace_Url" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://192.168.0.97:9026/AttandenceManagement_TOs</Value>
+    </Setting>
+    <Setting Name="SytemAdminEmail" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">trung.nq@to-solutions.com.vn</Value>
+    </Setting>
+    <Setting Name="SyncAllData" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="Auto_SyncAllData_hours" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">9</Value>
+    </Setting>
+    <Setting Name="Auto_SyncAllData_minute" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">25</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
